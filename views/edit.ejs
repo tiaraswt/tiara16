@@ -1,0 +1,20 @@
+<form action="" method="post">
+  <div class="modal-body">
+      <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">ID</label>
+          <input type="number" name="id" value="<%= user.id %>" class="form-control" id="exampleFormControlInput1" placeholder="Input ID">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nama</label>
+          <input type="text" name="nama" value="<%= user.nama %>" class="form-control" id="exampleFormControlInput1" placeholder="Input Nama">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">NIT</label>
+          <input type="text" name="nit" value="<%= user.nit %>" class="form-control" id="exampleFormControlInput1" placeholder="Input NIT">
+        </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+    <button type="submit" class="btn btn-primary">Simpan</button>
+  </div>
+  </form>
